@@ -1,0 +1,140 @@
+/* --- Reset --- */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html {
+    color-scheme: dark light;
+}
+
+body {
+    min-height: 100vh;
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+/* --- Reset --- */
+
+/* --- Variables --- */
+:root {
+    --bg-img-layer: -10;
+    --nav-layer: 10;
+    
+}
+/* --- Variables --- */
+
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin:auto
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10rem;
+    
+}
+nav div{
+    font-size: 1.3rem;
+    padding: 1.0rem 1rem;
+    font-weight: lighter;
+    background-color: #e8e5e480;
+    border-radius: 2rem;
+}
+#span1 {
+    background-color: #ffffff;
+    padding: 0.6rem 1rem;
+    border-radius: 2rem;
+}
+
+#firstSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#firstSection h1{
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+#firstSection div {
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#firstSection div span {
+    margin: 0.5rem;
+}
+
+.spans {
+    background-color: #e8e5e480;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+#secondSection {
+    display: flex;
+    flex:row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2%;
+    row-gap: 2rem;
+    padding: 10rem 0
+
+}
+#secondSection img {
+    max-width: 48%;
+    border-radius: 2rem;
+}
+
+#thirdSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#thirdSection h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#secondh1 {
+    color: #7f7f7f;
+}
+
+footer {
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#social {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+#social span{
+    
+}
